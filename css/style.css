@@ -34,7 +34,7 @@ Table of contents
 /* ===================================
     01. Google font
 ====================================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --alt-font: "Montserrat", sans-serif;
@@ -43,7 +43,33 @@ Table of contents
 /* ===================================
     02. CSS color variable
 ====================================== */
+/* 
+bg colors
+#e7e1d3
+#e2dbca
+
+#b29343
+#a98e4e
+
+#272727
+#1e1e1e
+
+#603913
+#212529
+#000000
+#000000e6
+*/
+
 :root {
+  --gold-secondary: #b29343;
+  --warm-ivory: #e7e1d3;
+  --beige-soft: #e2dbca;
+  --carbon-dark: #272727;
+  --charcoal-black: #1e1e1e;
+  --brown-dark: #603913;
+  --dark-charcoal: #212529;
+
+  /*  */
   --base-color: #a98e4e;
   --white: #ffffff;
   --black: #000000;
