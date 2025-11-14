@@ -45,6 +45,33 @@ footer a:hover {
   color: var(--brown-dark) !important;
 }
 
+.about-tabs-nav .nav-link.active {
+  color: var(--base-color) !important;
+  border-bottom: 2px solid var(--base-color) !important;
+}
+
+.about-tabs-nav .nav-link {
+  color: var(--brown-dark) !important;
+}
+
+.projects-tabs-nav .nav-link.active {
+  color: var(--base-color) !important;
+  border-bottom: 2px solid var(--base-color) !important;
+}
+
+.projects-tabs-nav .nav-link {
+  color: var(--brown-dark) !important;
+}
+
+.image-about-tab {
+  height: 500px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
 /* Gradient Backgrounds */
 
 .bg-gradient-gold {
@@ -124,10 +151,12 @@ footer a:hover {
 .btn-gradient-gold {
   background-image: linear-gradient(
     to right,
+    var(--brown-dark),
     var(--gold-secondary),
     var(--base-color),
-    var(--beige-soft),
-    var(--gold-secondary)
+    var(--gold-secondary),
+    var(--base-color),
+    var(--brown-dark)
   );
   background-size: 200% auto;
   color: var(--white);
