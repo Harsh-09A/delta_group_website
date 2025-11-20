@@ -214,3 +214,8 @@ footer a:hover {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+/*  */
+.header-connect-button i:hover {
+  color: var(--base-color);
+}
