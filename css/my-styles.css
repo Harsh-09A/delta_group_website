@@ -219,3 +219,28 @@ footer a:hover {
 .header-connect-button i:hover {
   color: var(--base-color);
 }
+
+.slider_logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .home_slider_1 {
+    background-image: url("/images/home/mobile_slider_luxuria.jpg") !important;
+  }
+  .home_slider_2 {
+    background-image: url("/images/home/mobile_slider_stellar.jpg") !important;
+  }
+  .home_slider_3 {
+    background-image: url("/images/home/mobile_slider_prestige.jpg") !important;
+  }
+  .slider_logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  .slider_content {
+    display: none;
+  }
+}
